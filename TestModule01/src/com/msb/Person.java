@@ -1,9 +1,5 @@
 package com.msb;
 
-import jdk.internal.org.objectweb.asm.commons.SerialVersionUIDAdder;
-
-import java.io.Serializable;
-
 /**
  * @description: 人
  * @author: liumj
@@ -13,5 +9,5 @@ import java.io.Serializable;
 public class Person {
     private int age;
     private String name;
-
+    private String sex;
 }
